@@ -12,7 +12,7 @@
 }
 
 header {
-  background-color: blue;
+  background-color: hsl(200, 100%, 62%);
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -21,10 +21,9 @@ header {
 
 article {
   float: left;
-  margin-top:7px;
   padding: 20px;
   width: 80%;
-  background-color: pink;
+  background-color: hsl(170, 100%, 64%);
   height: 300px; /* only for demonstration, should be removed */
 }
 
@@ -32,14 +31,13 @@ section:after {
   content: "";
   display: table;
   clear: both;
-  margin-top:7px;
 }
 
 nav {
   float: left;
   width: 20%;
   height: 300px; /* only for demonstration, should be removed */
-  background: white;
+  background: pink;
   padding: 20px;
 }
 
@@ -54,7 +52,6 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
-  margin-top:7px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -67,17 +64,16 @@ footer {
 li a {
   display: block;
   color: #000;
-  padding: 8px 16px;
   text-decoration: none;
 }
 
 li a.active {
-  background-color: red;
-  color: white;
+  background-color: #FFFF8C;
+  color: #EF476F;
 }
 
 li a:hover:not(.active) {
-  background-color: hsl(170, 100%, 64%);
+  background-color: pink;
   color: white;
 }
 
